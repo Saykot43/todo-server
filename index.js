@@ -32,7 +32,7 @@ async function run() {
 
             const result = await userCollection.insertOne(data);
             res.send(result);
-            console.log('user added successfully');
+            // console.log('user added successfully');
         })
 
         // Update a data
